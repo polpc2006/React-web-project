@@ -1,8 +1,8 @@
 .universe {
-    background-color: green;
+    background-image: linear-gradient(to bottom right,rgb(52, 231, 255),white, rgb(153, 25, 153));
 }
 
 .universe-table {
     align-content: center;
     background-color: rgb(179, 179, 179);
-}
+} 
