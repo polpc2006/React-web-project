@@ -1,8 +1,52 @@
 .universe {
-    background-color: green;
-}
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 174, 239) 0%,     /* Blau inicia a 0% */
+        rgb(0, 174, 239) 30%,    /* Blau fins a 30% */
+        rgb(230, 230, 255) 30%,  /* Blanc inicia a 30% */
+        rgb(230, 230, 255) 70%,  /* Blanc fins a 70% (30%+40%) */
+        rgb(120, 0, 120) 70%,    /* Lila inicia a 70% */
+        rgb(120, 0, 120) 100%    /* Lila fins a 100% */    
+    );
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .universe-table {
+    margin: 0 auto;
+    width: 90%;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(0, 174, 239) 0%,
+        rgb(0, 174, 239) 30%,
+        rgb(230, 230, 255) 30%,
+        rgb(230, 230, 255) 70%,
+        rgb(120, 0, 120) 70%,
+        rgb(120, 0, 120) 100%     
+    );
+    border-collapse: collapse;
+    border: 3px solid #333;
+    font-size: 1.1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+  .universe-table th,
+  .universe-table td {
+      border: 1.5px solid #4a148c;
+      /* border individual per cel·la */
+      padding: 12px 15px;
+      font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  }
 
-.universe-table {
-    align-content: center;
-    background-color: rgb(179, 179, 179);
-}
+  .universe-table th {
+      background-color: rgba(255, 255, 255, 0.8);
+      font-weight: 700;
+      font-size: 1.2rem;
+  }
+
+  .universe-table td {
+      font-weight: 400;
+      font-size: 1.1rem;
+      background-color: rgba(255, 255, 255, 0.6);
+  }
+  

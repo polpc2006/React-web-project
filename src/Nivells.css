@@ -1,0 +1,48 @@
+.nivells-container {
+    padding: 40px;
+    background: linear-gradient(to bottom right, #34e7ff 30%, #ffffff 40%, #991999 30%);
+    color: #000;
+    text-align: center;
+  }
+  
+  .nivells-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .nivell {
+    margin-bottom: 60px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .nivell h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .nivell p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .video-container {
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .nivell-video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    margin-top: 10px;
+    border: 2px solid #333;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  }
+  
+  
