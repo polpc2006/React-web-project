@@ -8,29 +8,29 @@ import './about.css';
 
 export function About() {
   const { t } = useLanguage();
-  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>{t('aboutProject')}</h1>
+    <div>
+      <LanguageSwitcher />
+      <div className="App">
+        <header className="App-header">
+          <h1>{t('aboutProject')}</h1>
 
-        <LanguageSwitcher />
+          <nav className="nav-menu">
+            <Link to="/" className="nav-link">{t('home')}</Link>
+            <Link to="/nivells" className="nav-link">{t('levels')}</Link>
+            <Link to="/univers" className="nav-link">{t('universe')}</Link>
+            <Link to="/about" className="nav-link">{t('aboutProject')}</Link>
+          </nav>
+        </header>
 
-        <nav className="nav-menu">
-          <Link to="/" className="nav-link">{t('home')}</Link>
-          <Link to="/nivells" className="nav-link">{t('levels')}</Link>
-          <Link to="/univers" className="nav-link">{t('universe')}</Link>
-          <Link to="/about" className="nav-link">{t('aboutProject')}</Link>
-        </nav>
-      </header>
-
-      <main className="page-content">
-        <div className="about-content">
-          <img src={logo} alt={t('homeImageAlt')} className="about-image" />
-          <p>{t('aboutDescription')}</p>
-        </div>
-      </main>
+        <main className="page-content">
+          <div className="about-content">
+            <img src={logo} alt={t('homeImageAlt')} className="about-image" />
+            <p>{t('aboutDescription')}</p>
+          </div>
+        </main>
+      </div>
     </div>
-
   );
 }

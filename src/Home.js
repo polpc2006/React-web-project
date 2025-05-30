@@ -21,10 +21,10 @@ export function Home() {
           </p>
 
           <nav className="nav-menu">
-            <Link to="/" className="nav-link">Inici</Link>
-            <Link to="/nivells" className="nav-link">Nivells</Link>
-            <Link to="/univers" className="nav-link">Univers</Link>
-            <Link to="/about" className="nav-link">Sobre el projecte</Link>
+            <Link to="/" className="nav-link">{t('home')}</Link>
+            <Link to="/nivells" className="nav-link">{t('levels')}</Link>
+            <Link to="/univers" className="nav-link">{t('universe')}</Link>
+            <Link to="/about" className="nav-link">{t('aboutProject')}</Link>
           </nav>
 
           <div className="App-div">

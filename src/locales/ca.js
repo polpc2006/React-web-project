@@ -4,7 +4,7 @@ const ca = {
   textdownload: "DESCARREGA'L AQUÍ",
 
   //Nivells
-  leveltext: "Niveles",
+  leveltext: "Nivells",
   home: "Inici",
   levels: "Nivells",
   universe: "Univers",
