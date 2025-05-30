@@ -49,22 +49,33 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
-.App-menu
-
 .App-div {
   align-content: center;
   background-color: rgba(255, 255, 255, 0.74);
   height: 150px;
-  width: 850px;
+  width: 450px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 20px;
 }
 
 .App-link {
-  
   font-size: 30px;
   color: #000000;
+  text-decoration: none; /* Treu el subratllat */
+  border: 1px solid #6c7a89; /* Border més petit */
+  border-radius: 12px; /* Cantons arrodonits */
+  background-color: #78909c; /* Blau gris */
+  padding: 6px 12px;
+  display: inline-block;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
+
+.App-link:hover {
+  background-color: #4a6572;
+  border-color: #2c3e50;
+  color: white;
+}
+
 
 .page-content {
   padding: 40px;
